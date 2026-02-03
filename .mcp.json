@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+    "laravel-boost": {
+      "command": "wsl.exe",
+      "args": [
+        "-e",
+        "bash",
+        "-lc",
+        "cd /var/www/erp-saas && php artisan boost:mcp"
+      ]
+    }
+  }
+}
